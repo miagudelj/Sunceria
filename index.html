@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="style.css" >
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		
+		<title>Log In</title>
+		
+		<script
+			  src="https://code.jquery.com/jquery-3.4.1.min.js"
+			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			  crossorigin="anonymous"></script>
+		<script src="login.js"></script>
+		
+	</head>
+	<body class="login">
+		<form class="loginForm">
+			<fieldset>
+				<h1>Log In</h1>
+				<div class="row">
+					<div class="col-sm-12">Username:</div>
+					<div class="col-sm-12">
+						<input type="text" id="user" name="username" required>
+					</div>	
+				</div>	
+				<div class="row">
+					<div class="col-sm-12">Password:</div>
+					<div class="col-sm-12">
+						<input type="password" id="pw" name="password" required>
+					</div>	
+				</div>	
+				<p>
+					<Button type="button" id="loginButton" class="btn">log in</button>
+				</p>
+			</fieldset>
+		</form>	
+	</body>
+</html>

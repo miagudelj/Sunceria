@@ -1,0 +1,137 @@
+/* GENERAL */
+body {
+	font-family: Arial !important;
+	color: white !important;
+	background-color: white;
+	margin-top: 1% !important;
+}
+
+img {
+	width: 100% !important;
+}
+
+video {
+	width: 100% !important;
+}
+
+a {
+	text-decoration: none !important;
+	color: black !important;
+}
+
+
+/* NAVIGATION: */
+.navbar {	
+	background-color: white !important;
+	margin-top: 1% !important;
+	margin-right: auto !important;
+	padding: 2% !important;
+	width: 95% !important;
+}
+
+/* Links  */
+.nav-item	{
+	border-right: solid gainsboro 1px !important;
+	flex-direction: none !important;
+}
+/* home brand */
+.navbar-brand {
+	border: none !important;
+	width: 4% !important;
+}
+/* link which is active*/
+#active	{
+	border: solid lightgrey 3px !important;
+	border-radius: 12% !important;
+}
+
+/* CONTAINERS*/
+.container	{
+}
+.col, .col-1, .col-2, .col-3, .col-4,
+ .col-5, .col-6, .col-7, .col-8,
+ .col-9, .col-10, .col-11, .col-12 	{
+	padding-right: auto !important;
+	padding-bottom: 1% !important;
+}
+
+/* BUTTONS */
+.btn {
+	background-color: white !important;
+	border-color: black !important;
+	margin-top: 2.5% !important;
+	margin-bottom: 2.5% !important;
+}
+
+
+/* PAGES */
+/* LOGIN PAGE */
+.login	{
+	color: black !important;
+	/* margin */
+	margin-left: 37% !important;
+	margin-right: 37% !important;
+	margin-top: 10% !important;
+	/* background */
+	background-image: url("img/index.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+/* formular */
+.loginForm	{
+	font-size: 150%;
+}
+
+/* HOME */
+.home	{
+	color: black ! important;
+	margin-left: 30% !important;
+	margin-right: 30% !important;
+}
+.display-3	{
+	font-family: Georgia, serif;
+}
+.home img	{
+	border: solid 10px #f5f5ef !important;
+	padding: 0% !important;
+	padding-left: 0% !important;
+	
+}
+.home .col-12	{
+	padding-bottom: 0% !important;
+}
+
+.peachy {
+	color: black !important;
+	background-color: lightsalmon;
+}
+
+.blutorange {
+	background-color: indianred;
+}
+
+.winter {
+	color: black !important;
+	background-color: lightskyblue;
+}
+
+.smooth {
+	color: black !important;
+	background-color: papayawhip;
+}
+.montreux	{
+	color: black !important;	
+	background: #DAF7A6;
+}
+.baskavoda	{
+	background-color: #ff751a;
+}
+
+.bol	{
+	background-color: #9999ff;
+}
+
+.hvar	{
+	background-color: #BA55D3;
+}

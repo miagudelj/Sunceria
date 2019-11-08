@@ -45,6 +45,11 @@ a {
 	border-radius: 12% !important;
 }
 
+.navbar-toggler	{
+	background-color: black !important;
+	color: white !important;
+}
+
 /* CONTAINERS*/
 .container	{
 }
@@ -69,17 +74,13 @@ a {
 .login	{
 	color: black !important;
 	/* margin */
-	margin-left: 37% !important;
-	margin-right: 37% !important;
-	margin-top: 10% !important;
+	margin-left: 40%;
+	margin-top: 15% !important;
 	/* background */
 	background-image: url("img/index.jpeg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-}
-/* formular */
-.loginForm	{
 	font-size: 150%;
 }
 
@@ -120,6 +121,10 @@ a {
 	color: black !important;
 	background-color: papayawhip;
 }
+.pastel	{
+	color: black !important;
+	background-color: #FEC8D8;
+}
 .montreux	{
 	color: black !important;	
 	background: #DAF7A6;
@@ -134,4 +139,10 @@ a {
 
 .hvar	{
 	background-color: #BA55D3;
+}
+
+.brighton	{
+	color: black !important;
+	background-color: #deeaee;
+	
 }

@@ -3,65 +3,88 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				
+		<!-- css sheet for own style -->
+		<link rel="stylesheet" type="text/css" href="../style.css" >
 
-		<link rel="stylesheet" href="../style.css" >
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-		<link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+		<!-- binding bootstrap css -->
+		<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+		<!-- binding bootrstrap javascript -->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+		<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+		<!-- binding special fonts -->
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Handlee">
+		
 		
 		<title>Winter</title>
+		
 	</head>
 	<body class="winter">
 		<header>
 			<a name="winter.html"></a>
 			
 			<!-- Navbar -->
-			<nav class="navbar navbar-expand-sm">
-				<!-- Brand/logo -->
-				<a class="navbar-brand" href="home.html">
+			<nav class="navbar navbar-expand-lg">
+
+				<!-- Brand/logo: HOME-->
+				<a class=" navbar-brand" href="home.html">
 					<img class="brand" src="../img/home.png" alt="brand" style="width:40px !important;">
 				</a>
-				<!-- Links -->
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a class="nav-link" href="peachy.html">Peachy</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="blutorange.html">Blutorange</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" id="active" href="winter.html">Winter</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="smooth.html">Smooth</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="pastel.html">Pastel</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="montreux.html">Montreux</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="baska_voda.html">Baska Voda</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="bol.html">Bol</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="hvar.html">Hvar</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="brighton.html">Brighton</a>
-					</li>
-				</ul>
-				<!-- Brand/logo: LOG OUT -->
-				<ul class="nav navbar-nav navbar-right">
-					<li>
-						<a class="navbar-brand" href="../index.html" style="display: block; text-align: right;">
-							<img class="brand" src="../img/logout.png" alt="brand" style="width: 30px !important;">
-							Log out
-						</a>
-					</li>
-				</ul>
+				
+				<!-- Collapse button -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+				aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<!-- Collapsible content -->
+				<div class="collapse navbar-collapse" id="basicExampleNav">
+					<!-- Links -->
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="peachy.html">Peachy</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="blutorange.html">Blutorange</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="active" href="winter.html">Winter</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="smooth.html">Smooth</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="pastel.html">Pastel</a>
+						</li>	
+
+						<!-- Dropdown -->
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Länder</a>
+							<div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+								<a class="dropdown-item" href="montreux.html">Montreux</a>
+								<a class="dropdown-item" href="baska_voda.html">Baska Voda</a>
+								<a class="dropdown-item" href="bol.html">Bol</a>
+								<a class="dropdown-item" href="hvar.html">Hvar</a>
+								<a class="dropdown-item" href="brighton.html">Brighton</a>
+							</div>
+						</li>
+					</ul>
+					<!-- Links -->
+					<form class="form-inline">
+						<div class="md-form my-0">
+							<!-- <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search"> -->
+							<a class="navbar-brand" href="../index.html" style="display: block; text-align: right;">
+								<img class="brand" src="../img/logout.png" alt="brand" style="width: 30px !important;">
+								Log out
+							</a>
+						</div>
+					</form>
+				</div>
 			</nav>
 		</header>
 		<content>

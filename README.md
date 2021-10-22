@@ -1,5 +1,5 @@
 # Sunceria
-Log In (miagudelj.github.io)
+https://miagudelj.github.io/Sunceria/ 
 
 
 Meine Absicht:
